@@ -5,6 +5,7 @@
     .see2{
         display: block;
         margin-top: 188px;
+        margin-right: 162px;
     }
     .brgr{
         display: none;
@@ -36,7 +37,9 @@
     }
     .founded{
         width: 445px;
+        height: 100px;
         margin-left: 96px;
+        text-align: start;
     }
     .vr{
         display: none;
@@ -68,6 +71,7 @@
         line-height: 48px; /* 100% */
         text-transform: uppercase;
         margin: 96px 0 25px 96px;
+        text-align: start;
     }
     .info{
         display: flex;
@@ -76,7 +80,15 @@
         margin-top: 68px;
     }
     .our{
-        margin: 184px 512px 80px 165px;
+        margin: 184px 590px 80px 165px;
+        color: #000;
+        font-family: Josefin Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 48px; /* 100% */
+        text-transform: uppercase;
+        width: 500px;
     }
     .dighomi{
         display: flex;
@@ -94,6 +106,13 @@
     }
     .secondd{
         display: block;
+    }
+    .seconddd{
+        display: block;
+    }
+    .seconddd:hover{
+        opacity: 0.6;
+        transition: 1.5s;
     }
     .lp2{
         margin: 44px 822px 24px 165px;
@@ -139,14 +158,17 @@
         margin-left: 32px;
         margin-bottom: 43px;
     }
+    .about:hover,.careers:hover,.events:hover,.products:hover,.support:hover{
+        border-bottom: #FFF;
+    }
     .fotoebi{
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 256px 256px 256px 256px;
         padding-bottom: 184px;
-        row-gap: 0px;
+        row-gap: 30px;
         padding-left: 165px;
         margin: 0;
-        column-gap: 10px;
+        column-gap: 30px;
     }
     .hambrgr{
         display: none;
