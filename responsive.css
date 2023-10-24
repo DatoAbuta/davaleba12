@@ -183,7 +183,7 @@
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px; /* 166.667% */
+        line-height: 32px; /* 100% */
         margin-left: 32px;
         margin-bottom: 43px;
     }
@@ -193,7 +193,7 @@
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px; /* 166.667% */
+        line-height: 32px; /* 100% */
         margin-left: 32px;
         margin-bottom: 43px;
     }
@@ -204,9 +204,114 @@
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px; /* 166.667% */
+        line-height: 32px; /* 100% */
         margin-left: 32px;
         margin-bottom: 43px;
         margin-right: 458px;
+    }
+    .deepearth{
+        position: absolute;
+        bottom: 32px;
+        left: 40px;
+        color: #FFF;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 100% */
+        text-transform: uppercase;
+        width: 106px;
+    }
+    .nightarcade{
+        position: absolute;
+        bottom: 32px;
+        left: 40px;
+        color: #FFF;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 100% */
+        text-transform: uppercase;
+        width: 132px;
+    }
+    .steamvr{
+        position: absolute;
+        bottom: 32px;
+        left: 40px;
+        color: #FFF;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 100% */
+        text-transform: uppercase;
+        width: 144px;
+        text-shadow: #000;
+    }
+    .tgrid{
+        position: absolute;
+        bottom: 32px;
+        left: 40px;
+        color: #FFF;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 100% */
+        text-transform: uppercase;
+        width: 77px;
+    }
+    .fupabove{
+        position: absolute;
+        bottom: 32px;
+        left: 40px;
+        color: #FFF;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 100% */
+        text-transform: uppercase;
+        width: 164px;
+    }
+    .pborealis{
+        position: absolute;
+        bottom: 32px;
+        left: 40px;;
+        color: #FFF;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 100% */
+        text-transform: uppercase;
+        width: 157px;
+    }
+    .tcuriosity{
+        position: absolute;
+        bottom: 32px;
+        left: 40px;
+        color: #FFF;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 100% */
+        text-transform: uppercase;
+        width: 169px;
+    }
+    .fisheye{
+        position: absolute;
+        bottom: 32px;
+        left: 40px;
+        color: #FFF;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 100% */
+        text-transform: uppercase;
+        width: 132px;
     }
 }
