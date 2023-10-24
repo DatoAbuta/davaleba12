@@ -134,6 +134,7 @@
     }
     .leomessi{
         display: flex;
+        height: 50px;
     }
     footer{
         height: 160px;
@@ -157,9 +158,6 @@
         line-height: 25px; /* 166.667% */
         margin-left: 32px;
         margin-bottom: 43px;
-    }
-    .about:hover,.careers:hover,.events:hover,.products:hover,.support:hover{
-        border-bottom: #FFF;
     }
     .fotoebi{
         display: grid;

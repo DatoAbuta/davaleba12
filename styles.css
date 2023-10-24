@@ -353,7 +353,6 @@ button:hover{
     text-transform: uppercase;
     border: 1px solid #000;
     background: #000;
-    transition: 1.5s;
 }
 
 footer{
@@ -431,4 +430,7 @@ footer{
 }
 .lp2{
     margin: 56px 115px 32px 115px;
+}
+.about:hover,.careers:hover,.events:hover,.products:hover,.support:hover{
+    border-bottom: #FFF solid 3px;
 }
