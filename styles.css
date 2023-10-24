@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300&family=Kumbh+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 650px;
+    flex-shrink: 0;
+    background-image: url(./assets/header.png);
+    background-repeat: no-repeat;
+}
+
+.zemot{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.info{
+    display: none;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; /* 104.167% */
+    text-transform: uppercase;
+    text-align: left;
+}
+.zemot2{
+    display: none;
+}
+.menu{
+    padding-top: 223px;
+    padding-right: 250px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 25px;
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    height: 667px;
+    text-align: left;
+    transition: 0.3s;
+}
+.menu.active{
+    left: 0;
+}
+.item{
+    margin: 2px 0;
+}
+.hambrgr{
+    display: block;
+    cursor: pointer;
+    padding-top: 44px;
+    padding-right: 24px;
+}
+.hambrgr.active .bar:nth-child(2){
+    opacity: 0;
+}
+.hambrgr.active .bar:nth-child(1){
+    opacity: 1;
+    transform: translateY(8px) rotate(45deg);
+}
+.hambrgr.active .bar:nth-child(3){
+    opacity: 1;
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.lp{
+    margin: 40px 0 0 24px;
+}
+
+.brgr{
+    margin: 40px 24px 0 0;
+}
+
+h3{
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+    text-transform: uppercase;
+    width: 279px;
+    height: 146px;
+}
+
+.textbox{
+    width: 327px;
+    height: 196px;
+    border: 2px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 227px 24px;
+}
+
+.vr{
+    margin: 96px 24px 48px 24px;
+}
+
+.vrdesk{
+    display: none;
+}
+
+.textebi{
+    text-align: center;
+}
+
+.lead{
+    color: #000;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 100% */
+    text-transform: uppercase;
+    width: 279px;
+    margin: 0 50px 16px 50px;
+}
+
+.founded{
+    color: #000;
+    text-align: center;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.4994;
+    width: 279px;
+    margin: auto;
+}
+
+.secondd{
+    display: none;
+}
+
+.our{
+    color: #000;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 100% */
+    text-transform: uppercase;
+    margin-top: 96px;
+    margin-bottom: 48px;
+}
+
+.fotoebi{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 24px;
+    padding-left: 24px;
+}
+
+.first,.second,.third,.fourth,.fifth,.sixth,.seventh,.eighth{
+    position: relative;
+    color: white;
+}
+
+.deepearth{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+    width: 80px;
+}
+.nightarcade{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+    width: 99px;
+}
+.steamvr{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+    width: 108px;
+}
+.tgrid{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+    width: 58px;
+}
+.fupabove{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+    width: 123px;
+}
+.pborealis{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+    width: 118px;
+}
+.tcuriosity{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+    width: 127px;
+}
+.fisheye{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+    width: 99px;
+}
+
+.see{
+    width: 157px;
+    height: 40px;
+    border: 1px solid #000;
+    color: #000;
+    font-family: Alata;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-color: white;
+    margin: 34px 109px 96px 109px;
+}
+
+.see2{
+    width: 157px;
+    height: 40px;
+    border: 1px solid #000;
+    color: #000;
+    font-family: Alata;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-color: white;
+    display: none;
+}
+
+button:hover{
+    color: #FFF;
+    font-family: Alata;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    background: #000;
+    transition: 1.5s;
+}
+
+footer{
+    width: 100%;
+    height: 470px;
+    background-color: #000;
+}
+
+.about{
+    color: #FFF;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-left: 166px;
+    margin-bottom: 16px;
+}
+.careers{
+    color: #FFF;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-left: 160px;
+    margin-bottom: 16px;
+}
+.events{
+    color: #FFF;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-left: 165px;
+    margin-bottom: 16px;
+}
+.products{
+    color: #FFF;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-left: 158px;
+    margin-bottom: 16px;
+}
+
+.support{
+    color: #FFF;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-left: 160px;
+    margin-bottom: 48px;
+}
+.social2{
+    display: none;
+}
+.social{
+    margin-left: 116px;
+    margin-bottom: 16px;
+}
+
+.loopstud{
+    color: #FFF;
+    font-family: Alata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.5;
+    margin-left: 52px;
+}
+
+.lp2{
+    margin: 56px 115px 32px 115px;
+}
